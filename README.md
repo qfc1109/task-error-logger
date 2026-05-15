@@ -17,14 +17,14 @@
 ├── agents/
 │   └── openai.yaml
 ├── task-error-logger.md
-└── read.md
+└── README.md
 ```
 
 ## 文件说明
 
 - `task-error-logger.md`：技能主体，包含触发说明、操作规则、日志模板、状态标记和安全检查。
 - `agents/openai.yaml`：OpenAI agent 入口配置，定义显示名称、简介和默认提示词。
-- `read.md`：仓库说明文档。
+- `README.md`：仓库说明文档，供 GitHub 在仓库首页自动展示。
 
 ## 使用方式
 
