@@ -1,0 +1,7 @@
+interface:
+  display_name: "Task Error Logger"
+  short_description: "Maintain task_plan.md task and issue logs"
+  default_prompt: "Use $task-error-logger to update task_plan.md with today's task progress, issue records, code changes, rollback notes, and verification evidence."
+
+policy:
+  allow_implicit_invocation: true
