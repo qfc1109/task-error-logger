@@ -1,7 +1,7 @@
 interface:
   display_name: "Task Error Logger"
-  short_description: "Maintain task_plan.md task and issue logs"
-  default_prompt: "Use $task-error-logger to update task_plan.md with today's task progress, issue records, code changes, rollback notes, and verification evidence."
+  short_description: "维护清晰的 task_plan.md"
+  default_prompt: "使用 $task-error-logger 更新 task_plan.md：只把未结束、后面还要继续跟的需求放进需求索引；已完成需求只保留在日期记录或历史日期记录中；每条日期记录必须能对应到需求ID和阶段。"
 
 policy:
   allow_implicit_invocation: true
