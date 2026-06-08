@@ -1,6 +1,8 @@
-# Task Error Logger
+# Maintaining Task Plan
 
-`task-error-logger` 是一个用于维护 `task_plan.md` 的技能。它的目标不是写很长的流水账，而是让任务计划先给人看得懂：当前做什么、下一步做什么、未结束需求卡在哪个阶段。
+`maintaining-task-plan` 是一个用于维护 `task_plan.md` 的技能。它的目标不是写很长的流水账，而是让任务计划先给人看得懂：当前做什么、下一步做什么、未结束需求卡在哪个阶段。
+
+远程仓库：[qfc1109/maintaining-task-plan](https://github.com/qfc1109/maintaining-task-plan.git)
 
 ## 适用场景
 
@@ -25,13 +27,13 @@
 .
 ├── agents/
 │   └── openai.yaml
-├── task-error-logger.md
+├── SKILL.md
 └── README.md
 ```
 
 ## 文件说明
 
-- `task-error-logger.md`：技能主体，包含触发说明、任务计划结构、状态标记和安全检查。
+- `SKILL.md`：技能主体，包含触发说明、任务计划结构、状态标记和安全检查。
 - `agents/openai.yaml`：OpenAI agent 入口配置，定义显示名称、简介和默认提示词。
 - `README.md`：仓库说明文档。
 
@@ -40,7 +42,7 @@
 显式调用：
 
 ```text
-$task-error-logger
+$maintaining-task-plan
 ```
 
 也可以直接描述需求：
@@ -55,7 +57,8 @@ $task-error-logger
 
 ## 维护建议
 
-- 修改技能主体时，优先更新 `task-error-logger.md`。
+- 修改技能主体时，优先更新 `SKILL.md`。
 - 如果默认调用文案变化，同步更新 `agents/openai.yaml`。
-- 部署到本机 Codex 时，同步到 `C:\Users\Administrator\.codex\skills\task-error-logger\SKILL.md`。
+- 部署到本机 Codex 时，同步到 `C:\Users\Administrator\.codex\skills\maintaining-task-plan\SKILL.md`。
+- 推送前确认 `origin` 指向 `https://github.com/qfc1109/maintaining-task-plan.git`。
 - 提交前检查 Markdown、状态标记和 `需求ID / 阶段` 示例是否正常。

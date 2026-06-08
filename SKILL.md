@@ -1,9 +1,9 @@
 ---
-name: task-error-logger
+name: maintaining-task-plan
 description: Use when maintaining task_plan.md, 任务计划, 阶段计划, 需求执行日志, task logs, or work journals; when users ask to 记录进度, 更新进度, 记录阶段, 更新阶段状态, 整理 task_plan.md, 记一下当前做到哪, 标记待办/进行中/阻塞/完成, 记录bug, 问题记录, or record what requirement and phase a date belongs to.
 ---
 
-# Task Error Logger
+# Maintaining Task Plan
 
 ## Purpose
 
